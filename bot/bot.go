@@ -21,9 +21,10 @@ func (this *Bot) Run() error {
 
 	this.totalMessage = 1
 
-	this.connectionToken, err = api.Connection("login", "passw", "loung")
+	this.pseudo = "login"
 
-	this.pseudo = "EpiTouille"
+	this.connectionToken, err = api.Connection(this.pseudo, "passw", "loung")
+
 
 	if err != nil {
 		return err
