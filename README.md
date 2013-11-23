@@ -47,6 +47,8 @@ Parse html msg to human reading message, and return it
 
 ####TYPES
 
+`
+
 type HandleConnection struct {
     Session string  `json:"session"`
     Passwd  string  `json:"motdepasse"`
@@ -55,6 +57,8 @@ type HandleConnection struct {
     State   float64 `json:"etat"`
     Message string  `json:"message"`
 }
+
+`
 
 Connection handle, directly parsed from JSON
 
