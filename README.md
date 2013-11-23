@@ -17,7 +17,7 @@ fearless man continue it.
 
 return value
 
-1th is true when message has adressed to us
+1st is true when message has adressed to us
 2th returned value it's the nickname of the message sender
 
 parameter
